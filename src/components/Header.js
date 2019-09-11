@@ -4,7 +4,7 @@ import '../assets/sass/main.scss';
 const Header = () => (
   <header id="header">
     <Link className="title" to="/">
-      Metro Church
+      Metro
     </Link>
     <nav>
       <ul>
@@ -16,6 +16,9 @@ const Header = () => (
         </li>
         <li>
           <Link to="/elements">Elements</Link>
+        </li>
+        <li>
+          <Link to="/sermons">Sermons</Link>
         </li>
       </ul>
     </nav>
