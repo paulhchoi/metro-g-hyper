@@ -2,16 +2,16 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 import pic1 from '../images/pic01.png';
 import pic2 from '../images/pic02.png';
-import pic3 from '../images/pic03.png'; 
-import Sidebar from '../components/Sidebar';
+import pic3 from '../images/pic03.png';
 import Scroll from '../components/Scroll';
 
 const IndexPage = () => (
   <Layout>
-    <Sidebar />
+    <Header />
 
     <div id="wrapper">
       <section id="intro" className="wrapper style1 fullscreen fade-up">
@@ -20,9 +20,9 @@ const IndexPage = () => (
           <p>
             Renewing. 
             <br />
-            Rebuilding. 
+            Retraining. 
             <br /> 
-            Retraining.
+            Rebuilding.
             <br />
             Open-Source starter coded in Gatsby on top of Html5Up Hyperspace design 
             <a href="https://github.com/app-generator/gatsby-html5up-hyperspace">Get Sources</a> 

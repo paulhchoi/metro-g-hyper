@@ -7,7 +7,7 @@ const Footer = () => (
       <ul className="menu">
         <li>&copy; AppSeed.</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Classic Mode: <a href="https://metropres.org">metropres.org</a>
         </li>
       </ul>
     </div>
