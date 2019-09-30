@@ -2,6 +2,9 @@ module.exports = {
   pathPrefix: ``, // This path is subpath of your hosting https://domain/portfolio
   siteMetadata: {
     title: 'Gatsby Hyperspace - Open-Source Starter | AppSeed',
+    leadership: "Leadership",
+    about: "About Metro",
+    gospel: "The Gospel"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
